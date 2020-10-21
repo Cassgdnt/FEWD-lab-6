@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+
+body {
+  font-family: "Lato";
+
+
+--darkblue: #13124F;
+--darkpurple: #1B1B6C;
+--purple: #352BA5;
+--pink: #F61067;
+--green: #2AD392;
+--gray: #9090A5;
+
+/* Font Colors */
+
+--light: #ffffff;
+}
+/*NAVBAR*/
+.navbar{
+    height: 70px;
+    margin-bottom: 0;
+  background-color: var(--darkpurple);
+  border-radius: 0;
+}
+.navbar img{
+    width: 50%;
+}
+
+
+
+/*JUMBOTRON*/
+
+.jumbotron {
+  background-color: var(--darkblue) !important;
+  color: var(--light);
+  border-radius: 0rem !important;
+}
+
+/*ALERT*/
+.alert {
+  border-radius: 0;
+}
+
+.alert-pink {
+  background: var(--gray);
+  color: var(--light);
+  border: 0;
+}
+
+/*BUTTON*/
+
+
+.btn-pink {
+  background-color: var(--pink);
+  color: var(--light);
+  border: solid 2px var(--pink);
+  border-radius: 0;
+  text-transform: uppercase;
+}
+.btn-pink a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color: white !important;
+    text-decoration: underline;
+}
+.badge {
+  background: var(--purple);
+}
+.notifications {
+  color: var(--light);
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/*INPUT*/
+
+.input{
+    background: var(--darkblue);
+    color: var(--light);
+    border: 0;
+}
+.input_title{
+    padding: 15px;
+    background: var(--gray);
+}
+.input_body{
+    padding: 15px;
+}
+.input button {
+  width: 100%;
+}
+
+.input_footer {
+  background: var(--purple);
+  color: var(--light);
+  text-decoration: underline;
+  text-align: center;
+  font-size: 9px;
+  padding: 15px;
+  border: 0;
+}
+
+.greeting {
+  margin-top: 20px;
+}
+
+.title {
+  font-weight: 700;
+}
+
+
+.greeting input {
+  background-color: var(--darkpurple);
+  border-top: solid 2px var(--gray);
+  border-bottom: solid 4px var(--gray);
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  color: var(--light);
+}
+
+/*VOTE*/
+
+.vote{
+    margin-top: 30px;
+    padding: 15px;
+    border: solid grey 0.5px;
+}
+
+/*Progress*/
+
+.progress-bar-pink {
+  background: var(--pink);
+  height: 8px !important;
+  width: 70%;
+}
+
+.progress-bar-green {
+  background: var(--green);
+  height: 8px !important;
+  width: 30%;
+}
+.progress{
+    display: inline;
+    width: 100%;
+    height: 8px !important;
+    border-radius: 0;
+}
+
+
+
+
+/*BUTTONS*/
+.buttons{
+    margin-top: 30px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.btn-green {
+  color: var(--green);
+  background-color: transparent;
+  border: solid 2px var(--green);
+  border-radius: 0;
+  width: 48%;
+}
+.buttons .btn-pink{
+    width: 48%;
+}
+
+/*FOOTER*/
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 20px;
+  background-color: var(--darkblue);
+  color: var(--light);
+}
